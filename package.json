@@ -1,0 +1,30 @@
+{
+  "name": "wp-shortcodes.js",
+  "version": "0.0.1",
+  "description": "Parse and render Wordpress style shortcodes",
+  "main": "Shortcode.js",
+  "scripts": {
+    "test": "mocha ShortcodeTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayc/wp-shortcodes.js.git"
+  },
+  "keywords": [
+    "Shortcode",
+    "Wordpress"
+  ],
+  "author": "Alex Choi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayc/wp-shortcodes.js/issues"
+  },
+  "homepage": "https://github.com/ayc/wp-shortcodes.js#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}
